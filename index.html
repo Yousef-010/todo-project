@@ -6,56 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do home </title>
     <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
 
 <body>
 
+<section class="header">
+
+  <div class="navbar">
+    <img src="./images/logoo.jpg" alt="logo image">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./contact.html">Contact</a>
     
-<header >
-    <img style="margin-left: 5rem;" src="./assets/logoo.jpg" alt="logo-image ">
-    <a style="margin-left: 15rem;  " href="./index.html">Home</a>
-    <a style="margin-left: 10rem;" href="./about.html">About-US</a>
-    <hr>
 
-</header>
+  </div>
 
-<main>
-     <br><br><br>
+</section>
+<hr>
+  
+<section class="main" >
+  <h2>TO DO LIST</h2>
+  <div class="adding">
+    <input type="text" placeholder="add task">
+    <a href="">save</a>
+    <a id="can" href="">cancel</a>
+  </div>
+  
+  <div class="tabel">
     <table>
-        <caption >To Do Table </caption>
-        <tr>
-          <th>Task Name</th>
-          <th>....</th>
-          <th>Task Status</th>
-        </tr>
+       
+      <tr>
+        <th>Task Name</th>
+        <th></th>
+        <th>Task Status</th>
+        <th></th>
+        <th>Day of Task</th>
+        <th></th>
+        <th>Grade</th>
+        <th></th>
 
-        <tr>
-          
-          <td>Tasl 1 </td>
-          <td>.....</td>
-          <td>Competed</td>
-        </tr>
-        <tr>
-           
-          <td>Task 2 </td>
-          <td>.....</td>
-          <td>unCompleted</td>
-        </tr>
-      </table>
+      </tr>
+      <tr>
+       <td>Task 1 </td>
+       <td></td>
+       <td class="com">completed</td>
+       <td></td>
+       <td>13/04/2022</td>
+       <td></td>
+       <td>10/10</td>
+      </tr>
+      <tr>
+        <td>Task 2 </td>
+        <td></td>
+        <td class="com">completed</td>
+        <td></td>
+        <td>14/04/2022</td>
+        <td></td>
+        <td>10/10</td>
+       </tr>
+       <tr>
+        <td>Task 3 </td>
+        <td></td>
+        <td class="com">completed</td>
+        <td></td>
+        <td>17/04/2022</td>
+        <td></td>
+        <td>10/10</td>
+       </tr>
+       <tr>
+        <td>Task 4 </td>
+        <td></td>
+        <td class="un-com">un-completed</td>
+        <td></td>
+        <td>18/04/2022</td>
+        <td></td>
+        <td>--/10</td>
+       </tr>
+    </table>
+  </div>
 
-</main>
-<br><br><br><br>
-<footer>
-    <hr>
-&copy; copyright 2022 LTUC
-        
-</footer>
+</section>
+<hr>
+ 
+<section class="footer">
 
+  <div class="copyright">&copy; copyright 2022 ASAC
 
-
-
+    <div class="social">
+      <a href="" class="fa fa-facebook-square">  </a>
+    <a href="" class="fa fa-linkedin"> </a>
+    </div>
+    
+  </div><br>
+   
+</section>
 
 </body>
 </html>

@@ -13,7 +13,6 @@ html{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     background-color: var(--html-bg);
-
  }
 
 .header{
@@ -63,97 +62,88 @@ h2 {
     background-color: var(--bg);
 }
 
-.about {
+ 
+
+.main .contact-form {
+    padding: 2rem;
     background-color: var(--bg);
     color: var(--main-color);
 }
-.about img {
-    width: 20rem;
-    border-radius: 5rem;
-    padding: 1rem;
-    margin-left:2rem ;
+
+.contact-form{
+    text-align: center;
 }
 
-.about .info{
-    padding: 1rem;
-    border: var(--border);
-    border-radius: 5rem;
-    width: 40rem;
-    margin-left: 25rem;
-    margin-top: -18rem;
+.main .contact-form input {
+     width: 20rem;
+    margin: 2rem;
+     padding: 0.5rem;
 }
 
+.main .contact-form a {
+    padding: 0.5rem;
+    margin: 2rem;
+    background-color:white;
+    color: black;
+    text-decoration: none;
 
+
+}
 
 @media only screen and (max-width:900px) {
+    
     html{
         margin: 1rem;
     }
-   .header, .about, .footer {
-       width:100%;
-   } 
-   .header .navbar a{
-    font-size: 1.5rem;
-    margin: 2rem;
-    padding: 1rem;
- 
-    }
-    .header .navbar img{
-      width: 150px;
-    }
-     
-    .about img {
-        width: 15rem;
-         
-    }
-    
-    .about .info{
+    .header, .main, .footer {
+        width:100%;
+    }  
+    .header .navbar a{
+        font-size: 2rem;
+        margin: 1rem;
         padding: 1rem;
-        width: 10rem;
-        margin-left: 20rem;
-     }
+     
+    }
+    .footer  {
+        width: 96%;
 
-     .footer  {
-         width: 96%;
- 
-     }
+    }
+
+    .header .navbar img{
+        width: 200px;
+      }
+
+      .main .contact-form textarea{
+        width: 22rem;
+    }
 }
-
 
 
 @media only screen and (max-width:600px) {
+    
     html{
         margin: 1rem;
     }
-    .header, .about, .footer {
+    .header, .main, .footer {
         width:100%;
     }  
-   .header .navbar a{
-    font-size: 1.2rem;
-    margin: 1rem;
-    padding: 1rem;
- 
-    }
-    .header .navbar img{
-      width: 150px;
-    }
-     
-    .about img {
-        width: 15rem;
-         
-    }
-    
-    .about .info{
+    .header .navbar a{
+        font-size: 1.2rem;
+        margin: 0.4rem;
         padding: 1rem;
-        width: 10rem;
-        margin-left: 20rem;
-     }
-
-     .footer  {
+     
+    }
+    .footer  {
         width: 94%;
 
     }
 
+    .header .navbar img{
+        width: 200px;
+    }
+    .main .contact-form textarea{
+        width: 21rem;
+    }
 
 }
 
